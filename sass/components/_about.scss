@@ -1,0 +1,44 @@
+.about {
+  display: flex;
+}
+
+.about .about__list {
+  width: 270px;
+  margin-right: 30px;
+}
+
+.about .about__list:nth-child(4n) {
+  margin-right: 0;
+}
+
+.thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  margin-top: 0;
+
+  background-color: #f5f4fa;
+}
+
+.about__title {
+  margin-bottom: 10px;
+  margin-top: 0px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.about__item {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}

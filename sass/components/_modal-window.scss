@@ -1,7 +1,8 @@
-.backdrop.is-hidden .modal {
-  transform: scale(1.5);
+.backdrop {
+  &.is-hidden .modal {
+    transform: scale(1.5);
+  }
 }
-
 .modal {
   width: 528px;
   min-height: 528px;
@@ -134,6 +135,7 @@
 .modal-checkbox {
   margin-bottom: 30px;
 }
+
 .button-submit {
   display: block;
   margin: 0 auto;
@@ -216,9 +218,11 @@
   fill: var(--primary-white-color);
 }
 
-.modal-check:checked + .checkbox__policy span {
-  background-color: var(--accent-color);
-  border: none;
+.modal-check {
+  &:checked + .checkbox__policy span {
+    background-color: var(--accent-color);
+    border: none;
+  }
 }
 
 .checkbox__text {

@@ -4,10 +4,8 @@
   align-items: center;
 }
 
-.contacts {
-  .contacts__item + .contacts__item {
-    margin-left: 50px;
-  }
+.contacts__item + .contacts__item {
+  margin-left: 50px;
 }
 
 .contacts__link {
@@ -27,14 +25,14 @@
   }
 }
 
-.contacts-mail__icon {
+.contacts__icon-mail {
   width: 16px;
   height: 12px;
   fill: currentColor;
   margin-right: 10px;
 }
 
-.contacts-tel__icon {
+.contacts__icon-tel {
   width: 10px;
   height: 16px;
   fill: currentColor;

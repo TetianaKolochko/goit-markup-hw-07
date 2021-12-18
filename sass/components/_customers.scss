@@ -1,4 +1,4 @@
-.customers__text {
+.section__title {
   margin-bottom: 50px;
   font-family: Roboto;
   font-style: normal;
@@ -11,8 +11,12 @@
   color: var(--title-text-color);
 }
 
-.customers__list {
+.customers {
   display: flex;
+
+  .customers__item + .customers__item {
+    margin-left: 30px;
+  }
 }
 
 .customers__item {
@@ -21,12 +25,6 @@
 
   width: 170px;
   height: 92px;
-}
-
-.customers__list {
-  .customers__item + .customers__item {
-    margin-left: 30px;
-  }
 }
 
 .customers__icon {

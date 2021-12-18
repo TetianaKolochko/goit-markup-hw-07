@@ -1,9 +1,10 @@
-.footer-contacts {
+.footer__contacts {
   display: block;
+  flex-grow: 1;
 }
 
-.footer-mail,
-.footer-address {
+.footer__contacts-mail,
+.footer__contacts-address {
   margin-bottom: 9px;
 }
 
@@ -19,10 +20,6 @@
   &:hover {
     color: var(--accent-color);
   }
-}
-
-.footer-contacts {
-  flex-grow: 1;
 }
 
 .footer-mail__link {

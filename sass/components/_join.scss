@@ -22,15 +22,13 @@
   display: flex;
 }
 
+.join__item + .join__item {
+  margin-left: 10px;
+}
+
 .join__item {
   width: 44px;
   height: 44px;
-}
-
-.join__list {
-  .join__item + .join__item {
-    margin-left: 10px;
-  }
 }
 
 .join__link {

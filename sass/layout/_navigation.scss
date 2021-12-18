@@ -17,13 +17,8 @@
   }
 }
 
-.navigation__list {
-  .navigation__item + .navigation__item {
-    margin-left: 50px;
-  }
-}
-
-.navigation__item {
+.navigation__item + .navigation__item {
+  margin-left: 50px;
   &:last-child {
     margin-right: 0;
   }
